@@ -1,0 +1,9 @@
+local function kickPlayer(player, reason)
+    if player and player:IsA("Player") then
+        player:Kick(reason)
+    end
+end
+
+local playerToKick = game.Players:FindFirstChild("mkl73lol") 
+local kickReason = "You are banned from this script. To get unbanned you have to pay 2k robux"
+kickPlayer(playerToKick, kickReason)
