@@ -1,9 +1,1 @@
-local function kickPlayer(player, reason)
-    if player and player:IsA("Player") then
-        player:Kick(reason)
-    end
-end
-
-local playerToKick = game.Players:FindFirstChild("66azez22500") 
-local kickReason = "You are banned for using this script. Contact 1003z on discord to get unbanned"
-kickPlayer(playerToKick, kickReason)
+print("aziz unbanned")
